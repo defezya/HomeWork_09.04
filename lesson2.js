@@ -1,5 +1,4 @@
 // Задание 1
-
  // Спрашиваем у пользователя возраст
  let age = prompt("Ваш возраст?");
  // Выводим сообщение с возрастом пользователя
@@ -27,7 +26,6 @@
  alert('2' * '3'); // результат: 6 (строки преобразуются в числа для умножения) 
  
  // Задание 3
- 
  const t2 = '2';
  const b2 = '3';
  console.log(+t2 + +b2); 
@@ -40,7 +38,6 @@
  console.log(`Остаток от деления чисел равен ${+a1 % +b1}`); // 1
  
  // Задание 4
- 
  console.log(String(true)); // true
  console.log('a' + true); // atrue
  console.log(Number(true)); // 1
@@ -50,7 +47,6 @@
  console.log( String(true) + Number(true)) // true1
  
  // Задание 5
- 
  const a = +prompt('a'); //10
  const text = a==5 ? 'Число равно 5' : a>5 ? 'Число больше 5' : 'Число меньше 5';
  console.log(text); // число больше 5
@@ -60,7 +56,6 @@
  test1>test2 ? 'Первое число больше второго' : 
  'Второе число больше первого';
  console.log(text2) // Первое число больше второго
- 
  const c = +prompt('Введите число'); // 5
  const itog = {o:false, t:false};
  if (c>0){
@@ -88,18 +83,15 @@
  console.log(o&&t?'Значение удовлетворяет условиям': 'Значение не удовлетворяет условиям');
  
  // Задание 6
- 
  const num1 = +prompt('Введите число'); // 1
  const num2 = +prompt('Введите число'); // 3
  console.log(num1<=0 || num2>=3 && num2>=3) // true
  
  // Задание 7
- 
  let test5 = true;
  console.log(test5? '+++' : '---') // true
 
  // Задание 8
- 
  const [start, end] = [1, 31];
  const day = Math.floor(Math.random()*(end-start)+start);
  console.log(day);
@@ -107,7 +99,6 @@
  console.log(decade)
  
  // Задание 9
-
   const number = parseInt(prompt("Введите положительное целое число:"));
  // Находим количество сотен, десятков и единиц
  const hundreds = Math.floor(number / 100) % 10; // Сотни
